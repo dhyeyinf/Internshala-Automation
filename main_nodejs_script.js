@@ -93,7 +93,7 @@ async function loginAndNavigate(credentials, stipend, profileLink, textToFill, c
 }
 
 const credentials = {
-    email: your mail',
+    email: 'your mail',
     password: 'mail id password'
 };
 
