@@ -35,7 +35,7 @@ Automate the application process for internships on Internshala using Puppeteer.
 3. Specify the text to fill in the application form.
 4. Run the script:
     ```sh
-    node webscrapping.js
+    node Automation.js
     ```
 
 ## Configuration
