@@ -55,6 +55,7 @@ async function loginAndNavigate(credentials, stipend, profileLink, textToFill, c
                 const textareaSelector = '#cover_letter_holder .ql-editor';
                 const textarea = await page.$(textareaSelector);
 
+                //here are these
                 if (textarea) {
                     await textarea.click({ clickCount: 3 });
                     await textarea.press('Backspace');
